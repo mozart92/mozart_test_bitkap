@@ -1,0 +1,12 @@
+.welcome-box{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 2px 1px 4px 0px #c8c4c4;
+}
+
+.welcome-box > *{
+    margin: 0;
+    font-weight: normal;
+}
+

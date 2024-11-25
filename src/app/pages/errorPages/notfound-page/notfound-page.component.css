@@ -1,0 +1,51 @@
+/* Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Main Container */
+  .not-found-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e90ff, #00bcd4);
+    color: white;
+    text-align: center;
+  }
+  
+  /* Content Styling */
+  .content h1 {
+    font-size: 8rem;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .content h2 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .content p {
+    font-size: 1.2rem;
+    margin: 1rem 0 2rem;
+  }
+  
+  /* Button Styling */
+  .btn {
+    text-decoration: none;
+    color: white;
+    background: #007bff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: #0056b3;
+  }
+  

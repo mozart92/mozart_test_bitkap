@@ -1,0 +1,17 @@
+<nav class="navbar">
+    <div class="logo">BitKap</div>
+    <ul class="menu">
+      <li><a href="javascript:void(0)" routerLink="/home" routerLinkActive="active-nav">Accueil</a></li>
+      <li><a href="javascript:void(0)" routerLink="/profile" routerLinkActive="active-nav">Profile</a></li>
+      <li><a href="javascript:void(0)" routerLink="/mon-espace" routerLinkActive="active-nav">Mon espace</a></li>
+    </ul>
+    <div class="user-section">
+      <span class="username">Bonjour, {{ user?.firstName }} {{ user?.lastName }}</span>
+      <button class="logout-btn" (click)="logout()">Déconnexion</button>
+    </div>
+</nav>
+<section>
+    <div class="container">
+        <router-outlet />
+    </div>
+</section>
